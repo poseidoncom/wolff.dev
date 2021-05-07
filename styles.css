@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Work+Sans:wght@300&display=swap');
+body {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    background-color: #b7e3e4;
+}
+   
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: #f03f35;
+}
+
+
+
+
+.center {
+    margin: auto;
+    width: auto;
+    max-width: 61vh;
+    padding: 10px;
+
+  }
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: rgba(51, 51, 51, 0);
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: #f03f35;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    font-style: oblique;
+    font-weight: 400;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+   /* background-color: #aa0404;*/
+    color: #f03f35;
+  }
+  .topnav a.active:hover {
+      color: #f03f35;
+  }
+
+.about{
+    margin: auto;
+    margin-top: 10vh;
+    padding: 3px;
+    border-radius: 10px;
+    background-color: #f03e3500;
+    max-width: 40%;
+}
+
+
+.content{
+    margin: auto;
+    width: 80%;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.main{
+    margin: auto;
+    width: 80%;
+    margin-top: 15%;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+.img {
+    border-radius: 50%;
+    margin: auto;
+  }
+
+.WOLFF{
+    margin-top: -50px;
+}
+.WEARE h1{
+    color: White;
+    
+}
+
+.WOLFFDEV{
+    margin-top: -45px;
+    margin-left: 30px;
+}
+/*********REFERENSSILOGOT**********/
+.logot{
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    width: fit-content;
+    min-width: 400px;
+    height: 200;
+    border-radius: 10px;
+}
+
+.zoom {
+    padding: 50px;
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+}
+
+.zoom:hover {
+transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
